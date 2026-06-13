@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --color-bg:#1f1f38;
+    --color-bg-variant:#2c2c6c;
+    --color-primary:#4db5ff;
+    --color-primary-variant:rgb(77, 181, 255, 0.6);
+    --color-white:#fff;
+    --color-light:rgb(255, 255, 255, 0.6);
+    --transition: all 0.4s ease;
+    --padding-top: 100px;
+    --padding-boutton: 100px;
+}
+.top_section h5{
+    color: var(--color-primary);
+    text-align: center;
+    text-transform:capitalize;
+}
+.top_section h2{
+    color: var(--color-light);
+    text-align: center;
+    text-transform:capitalize;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    background-image: url(assets/bg-texture.png);
+}
+
+h1, h2, h3, h4,h5,h6{
+    font-weight: 500;
+}
+h1{
+    font-size: 2.5rem;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+section{
+    padding-top: 8rem;
+}
+.text-light{
+    color: var(--color-light);
+}
+a{
+    color: var(--color-primary);
+    transition: var(--transition);
+
+}
+a:hover{
+    color: var(--color-white);
+}
+.btn{
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid var(--color-primary);
+    width: max-content;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.btn:hover{
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+.btn-primary{
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:1024px) {
+    .container{
+        width: 85%;
+    }
+    section{
+        padding-top: 6rem;
+    }
+}
+@media (max-width:600px) {
+        .container{
+        width: 90%;
+    }
+    section{
+        padding-top: 4rem;
+    }
+}

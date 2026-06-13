@@ -1,0 +1,60 @@
+:root{
+    --color-bg:#1f1f38;
+    --color-bg-variant:#2c2c6c;
+    --color-primary:#4db5ff;
+    --color-primary-variant:rgb(77, 181, 255, 0.6);
+    --color-white:#fff;
+    --color-light:rgb(255, 255, 255, 0.6);
+    --transition: all 0.4s ease;
+    --padding-top: 100px;
+    --padding-boutton: 100px;
+}
+/* الحاوية الأساسية */
+.container_services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* كل كارت */
+.artical_service {
+  display: flex;
+  justify-content: center;
+}
+
+/* محتوى الكارت */
+.card_artical {
+  background: var(--color-bg-variant);
+  padding: 1.8rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s ease;
+  border: 1px solid transparent;
+}
+
+/* الأيقونة */
+.card_artical svg {
+  font-size: 2.8rem;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+/* العنوان */
+.card_artical h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+  color: #fff;
+}
+
+/* النص */
+.card_artical p {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.card_artical:hover {
+  background-color: var(--color-bg);
+  transform: translateY(-6px);
+  border: 1px solid var(--color-primary-variant);}

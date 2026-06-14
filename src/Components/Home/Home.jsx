@@ -14,7 +14,7 @@ function Home() {
         <h4 className='text-lighe'>Frontend Developer</h4>
         <div className='bttn'>
           <a href={cv} download className="btn">Download CV</a>
-          <a href="#Contact" className="btn btn-primary" >Let ’s Touch</a>
+          <a href="#Contact" className="btn btn-primary" >Let ’s Talk</a>
         </div>
         
         <div className="me">

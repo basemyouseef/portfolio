@@ -3,7 +3,7 @@ import './Skills.css'
 import LogoLoop from './LogoLoop';
 
 import { 
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub 
+  FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub ,FaTiktok,FaSnapchatGhost
 } from "react-icons/fa";
 import { SiTailwindcss, SiVite, SiRedux, SiTypescript, SiNextdotjs } from "react-icons/si";
 
@@ -19,6 +19,8 @@ const logos = [
   { node: <SiNextdotjs size={40} color="#000000" />, title: "Next.js" },
   { node: <FaGitAlt size={40} color="#F05032" />, title: "Git" },
   { node: <FaGithub size={40} color="#181717" />, title: "GitHub" },
+  { node: <FaTiktok size={40} color="#000000" />, title: "TikTok" },
+  { node: <FaSnapchatGhost size={40} color="#FFFC00" />, title: "Snapchat" }
 ];
 const dataskills = [
   {id:1, title: "HTML",disc:"structure web content", icon: <FaHtml5 size={40} color="#E34F26"  /> },
@@ -28,7 +30,9 @@ const dataskills = [
   {id:5, title: "Redux",disc:"mange app state", icon: <SiRedux size={40} color="#764ABC" /> },
   {id:6, title: "TypeScript",disc:"javaScript with types", icon: <SiTypescript size={40} color="#3178C6" /> },
   {id:7, title: "Tailwind CSS",disc:"frist css framework", icon: <SiTailwindcss size={40} color="#38BDF8" /> },
-  {id:11, title: "GitHub",disc:"code hosting platform", icon: <FaGithub size={40} color="#181717" /> },
+  {id:8, title: "GitHub",disc:"code hosting platform", icon: <FaGithub size={40} color="#181717" /> },
+  {id:9, title: "TikTok",disc:"social media platform", icon: <FaTiktok size={40} color="#000000" /> },
+  {id:10, title: "Snapchat",disc:"social media platform", icon: <FaSnapchatGhost size={40} color="#FFFC00" /> },
 ];
 
 function Skills() {

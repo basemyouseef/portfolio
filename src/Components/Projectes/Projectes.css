@@ -10,12 +10,11 @@
     --padding-boutton: 100px;
 }
 .projectes_container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 30px;
 }
 .projectes_container .project_item{
-    width: 31%;
     background-color: var(--color-bg-variant);
     margin-bottom: 40px;
     padding: 20px;
@@ -37,9 +36,7 @@
     margin: 20px 0 20px;
 }
 @media (max-width:800px) {
-    .projectes_container .project_item{
-            width: 45%;
-    }
+ 
 }
 @media (max-width:600px) {
     .projectes_container .project_item{

@@ -53,7 +53,7 @@ const Contact = () => {
   return (
     <section className="contact" id="Contact">
       <div className="top_section">
-        <h5>Get In Touch</h5>
+        <h5>Get In Tack</h5>
         <h2 className="main_title">Contact Me</h2>
       </div>
 

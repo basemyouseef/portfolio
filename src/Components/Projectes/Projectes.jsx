@@ -7,62 +7,68 @@ import img4 from '../../Components/image/paint-shop-main.png';
 import img5 from '../../Components/image/test project.png';
 import img6 from '../../Components/image/ecommerce.png';
 import img7 from '../../Components/image/poet.png';
+import img8 from '../../Components/image/iron.png';
 
 
-const projectesData=[
-{
-  id:1,
-  img:img1,
-  title:"Prject cruds ",
-  github:"https://github.com/basemyouseef/CRUD-Operations",
-  demo:"https://basemyouseef.github.io/CRUD-Operations/"
-},
-{
-  id:2,
-  img:img2,
-  title:"Prject MY-To-Do-List",
-  github:"https://github.com/basemyouseef/MY-To-Do-List",
-  demo:"https://basemyouseef.github.io/MY-To-Do-List/"
-},
-{
-  id:3,
-  img:img3,
-  title:"Prject weather-ai",
-  github:"https://github.com/basemyouseef/weather-ai/settings/pages",
-  demo:"https://basemyouseef.github.io/weather-ai/"
-},
-{
-  id:4,
-  img:img5,
-  title:"Prject test WebSit",
-  github:"https://github.com/basemyouseef/test-project-react",
-  demo:"https://basemyouseef.github.io/test-project-react/"
-},
-{
-  id:5,
-  img:img4,
-  title:"Prject paint-shop-main",
-  github:"https://github.com/basemyouseef/PaintShop",
-  demo:"https://basemyouseef.github.io/PaintShop/"
-},
+const projectesData = [
+  {
+    id: 1,
+    img: img1,
+    title: "Project CRUD Operations",
+    github: "https://github.com/basemyouseef/CRUD-Operations",
+    demo: "https://basemyouseef.github.io/CRUD-Operations/"
+  },
+  {
+    id: 2,
+    img: img2,
+    title: "Project My To-Do List",
+    github: "https://github.com/basemyouseef/MY-To-Do-List",
+    demo: "https://basemyouseef.github.io/MY-To-Do-List/"
+  },
+  {
+    id: 3,
+    img: img3,
+    title: "Project Weather AI",
+    github: "https://github.com/basemyouseef/weather-ai",
+    demo: "https://basemyouseef.github.io/weather-ai/"
+  },
+  {
+    id: 4,
+    img: img5,
+    title: "Project Test Website",
+    github: "https://github.com/basemyouseef/test-project-react",
+    demo: "https://basemyouseef.github.io/test-project-react/"
+  },
+  {
+    id: 5,
+    img: img4,
+    title: "Project Paint Shop",
+    github: "https://github.com/basemyouseef/PaintShop",
+    demo: "https://basemyouseef.github.io/PaintShop/"
+  },
+  {
+    id: 6,
+    img: img6,
+    title: "E-commerce API",
+    github: "https://github.com/basemyouseef/E-commerce-API",
+    demo: "https://basemyouseef.github.io/E-commerce-API/"
+  },
+  {
+    id: 7,
+    img: img7,
+    title: "Portfolio Website",
+    github: "https://github.com/basemyouseef/portfolio",
+    demo: "https://basemyouseef.github.io/portfolio/"
+  },
+  {
+    id: 8,
+    img: img8,
+    title: "IronCool (Team Project)",
+    github: "https://ironcool.net/articles/",
+    demo: "https://ironcool.net/articles/"
+  }
+];
 
-{
-  id:6,
-  img:img6,
-  title:"E-commerce-API",
-  github:"https://github.com/basemyouseef/E-commerce-API",
-  demo:"https://basemyouseef.github.io/E-commerce-API/"
-},
-{
-  id:7,
-  img:img7,
-  title:"Portfolio-Website",
-  github:"https://github.com/basemyouseef/portfolio",
-  demo:"https://basemyouseef.github.io/portfolio/"
-}
-
-
-]
 function Projectes() {
   return (
     <section className='porjectes' id='porjectes'>

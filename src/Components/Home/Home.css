@@ -15,10 +15,11 @@
     text-align: center;
     padding-top: var(--padding-top);
 }
-.container home-container{
+.container .home-container {
     text-align: center;
     height: 100%;
 }
+
 .home .me {
   text-align: center; 
 }

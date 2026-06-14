@@ -6,6 +6,7 @@ import img3 from '../../Components/image/wheater.png';
 import img4 from '../../Components/image/paint-shop-main.png';
 import img5 from '../../Components/image/test project.png';
 import img6 from '../../Components/image/ecommerce.png';
+import img7 from '../../Components/image/poet.png';
 
 
 const projectesData=[
@@ -44,13 +45,22 @@ const projectesData=[
   github:"https://github.com/basemyouseef/PaintShop",
   demo:"https://basemyouseef.github.io/PaintShop/"
 },
+
 {
   id:6,
   img:img6,
   title:"E-commerce-API",
   github:"https://github.com/basemyouseef/E-commerce-API",
   demo:"https://basemyouseef.github.io/E-commerce-API/"
+},
+{
+  id:7,
+  img:img7,
+  title:"Portfolio-Website",
+  github:"https://github.com/basemyouseef/portfolio",
+  demo:"https://basemyouseef.github.io/portfolio/"
 }
+
 
 ]
 function Projectes() {
